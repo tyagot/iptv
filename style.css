@@ -1,0 +1,101 @@
+* {
+  font-family: monospace;
+  margin: 0%;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 30px;
+}
+
+#whats {
+  margin-top: 10px;
+  margin-left: 900px;
+  margin-right: 10px;
+  padding: 40px;
+}
+
+#titulo {
+  font-size: 40px;
+  text-align: justify;
+  color: rgb(218, 54, 54);
+  margin-left: 40px;
+}
+
+#subtitulo {
+  color: rgb(218, 54, 54);
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 40px;
+  padding-bottom: 100px;
+}
+
+#menusuperior {
+  background-image: url(icones.svg/planodefundo.svg);
+}
+
+#menuinormacional {
+  background-color: rgb(191, 199, 197);
+  grid-auto-flow: column;
+  display: grid;
+  columns: auto;
+}
+
+.icone {
+  margin: 50px;
+  margin-right: 20px;
+}
+
+.textoinformativo {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 80px;
+  margin: 50px 0px 30px 50px;
+  align-items: center.;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#carrosel {
+  background-color: rgb(191, 199, 197);
+  padding: 50px;
+}
+
+#titulocarrosel {
+  text-align: center;
+  color: rgb(218, 54, 54);
+  font-size: 30px;
+}
+
+#divcards {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 25px;
+}
+
+.card {
+  margin-left: 20px;
+}
+
+#esquerda {
+  display: none;
+}
+
+#bruna {
+  display: none;
+}
+
+.seta {
+  margin-top: 55%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.7s;
+}
